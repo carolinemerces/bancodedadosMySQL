@@ -47,14 +47,11 @@ select * from tb_personagem where nome like 'x%';
 #Faça um select  utilizando LIKE buscando os personagens com a última letra R.
 select * from tb_personagem where nome like '%r';
 
-#Faça um um select com Inner join entre  tabela classe e personagem.
+#Faça um select com Inner join entre  tabela classe e personagem.
 select * from tb_personagem inner join tb_classe on tb_classe.id = tb_personagem.classe_id;
 select nome, ataque, defesa, classe, power from tb_personagem inner join tb_classe on tb_classe.id = tb_personagem.classe_id;
 
 #Faça um select onde traga todos os personagem de uma classe específica (exemplo todos os personagens que são arqueiros).
-#SELECT nome, ataque, defesa, classe FROM tb_personagem
-	#INNER JOIN tb_classe ON tb_classe.id = tb_personagem.classe_id
-    #WHERE tb_classe.classe = "Arqueiros"
-    #ORDER BY ataque DESC;
+select nome, ataque, defesa, classe from tb_personagem inner join tb_classe on tb_classe.id = tb_personagem.classe_id where tb_classe.classe = "Arqueiros";
   
   
