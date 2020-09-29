@@ -7,4 +7,8 @@ quantidade_kg double(5,3),
 estoque_produto boolean,
 categoria_id int,
 constraint fk_produtos foreign key(categoria_id) references tb_categorias(id_categoria)
+<<<<<<< HEAD
 );
+=======
+);
+>>>>>>> 211d4285acc97afb89df0c11878b56ec28eebe58
