@@ -6,5 +6,5 @@ preco_produto double(5,2),
 quantidade_kg double(5,3),
 estoque_produto boolean,
 categoria_id int,
-foreign key(categoria_id) references tb_categorias(id_categoria)
+constraint fk_produtos foreign key(categoria_id) references tb_categorias(id_categoria)
 );

@@ -7,4 +7,5 @@ insert into tb_produtos values
 (null, "Asinha", 9.99, 0.500, true, 3),
 (null, "Bacon", 12.99, 0.200, true, 2),
 (null, "Fígado", 6.99, 0.700, true, 1),
-(null, "Coxa", 8.99, 1.800, true, 3);
+(null, "Coxa", 8.99, 1.800, true, 3),
+(null, "Pacu", 23.99, 1.250, true, 4);
